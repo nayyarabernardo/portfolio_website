@@ -6,13 +6,13 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('imagens/heroImage.jpeg');
+    background: url('imagens/heroImage.jpg');
     background-size:cover;
     position:relative;
 }
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 2.rem;
 }
 .hero_desc {
     font-size: 2rem;
@@ -20,10 +20,10 @@
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 85%;
+    left: 13%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
 }
 
 /* spacing on all sections */
@@ -53,10 +53,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #cdc9e4;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #cdc9e4;
 }
 
 /* social media icons styling */
@@ -65,13 +65,13 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: #cdc9e4;
 }
 .fab {
     color: #000000;
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: #cdc9e4;
     text-align: center;
 }
